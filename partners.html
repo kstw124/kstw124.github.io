@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Социален Хъб - Партньори</title>
+  <meta name="description" content="Социален Хъб - Партньори">
+  <meta name="keywords" content="Социален, хъб, Партньори">
+  <meta name="author" content="Калина Стоянова">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: Verdana, Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    h1, h2, h3 {
+      margin: 10px 0;
+    }
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      box-shadow: -2px 2px 2px black;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav form {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+    nav input[type="text"] {
+      padding: 5px;
+      width: 150px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    nav input[type="submit"] {
+      padding: 5px 10px;
+      margin-left: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: -2px 2px 2px black;
+    }
+    nav input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    main section {
+      margin-bottom: 20px;
+    }
+    main section h2 {
+      background-color: #eee;
+      padding: 10px;
+    }
+    main section p {
+      margin: 10px 0;
+    }
+  
+    .partner-block {
+      border: 1px solid #ccc;    
+      margin-bottom: 20px;       
+      padding: 10px;             
+    }
+    .partner-block h3 {
+      margin-top: 0;
+    }
+    .block-content {
+      display: flex;
+      flex-direction: row;       
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .block-content img {
+      width: 300px;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>Социален Хъб</h1>
+        <div class="social-icons">
+          <a href="#"><img src="gallery/facebook1.png" alt="Facebook"></a>
+          <a href="#"><img src="gallery/instagram1.png" alt="Instagram"></a>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <a href="index.html">Начало</a>
+      <a href="about_us.html">За нас</a>
+      <a href="partners.html">Партньори</a>
+      <a href="contacts.html">Контакти</a>
+      <form id="searchForm" action="search_results.html" method="GET">
+        <input type="text" name="q" placeholder="Търси...">
+        <input type="submit" value="Търси">
+      </form>
+    </nav>
+
+    <main>
+      <h2>Нашите партньори</h2>
+      <div class="partner-block" id="semeina-ferma">
+        <h3>Семейната ферма</h3>
+        <div class="block-content">
+          <img src="Gallery/Изображения/Picture_23.jpg" alt="Семейната ферма">
+          <div>
+            <p>Фирма “Семейната ферма” е производител на земеделски продукти. В нея се отглеждат основно български сортове зеленчуци, които са се доказали на българския пазар. В региона тя е единствената фирма, която осигурява работна ръка на над 30 семейства.</p>
+            <p>Фирмата стартира своята дейност през 1993 г., като първоначално се е занимавала с отглеждането на картофи и краставици на площ от около 15 декара. Сега се отглеждат над 10 вида зеленчукови култури върху площ от 120 декара, които се продават в местните фирми и магазини.</p>
+          </div>
+        </div>
+      </div>
+      <div class="partner-block" id="yan-bibiyan">
+        <h3>Печатница "Ян Бибиян"</h3>
+        <div class="block-content">
+          <img src="Gallery/Изображения/Picture_17.jpg" alt="Печатница Ян Бибиян">
+          <div>
+            <p>Ако търсите печатница, която да ви предложи качествен продукт на достъпна цена, тогава се обърнете към нас. Ние сме млад и амбициозен колектив, който е в крак с нуждите на съвременните клиенти. В нашата малка местна печатница работи персонал, който иска да се докаже като успешна търговска печатница, способна да предложи широка гама от решения за всеки клиент.</p>
+            <p>Списъкът с продукти, които можем да произвеждаме, е безкраен. Можем да осигурим офсетов печат, дигитален печат, широкоформатен печат, табели и дизайнерски продукти.</p>
+          </div>
+        </div>
+      </div>
+      <div class="partner-block" id="dan-service">
+        <h3>DAN Сървис</h3>
+        <div class="block-content">
+          <img src="Gallery/Изображения/Picture_24.jpg" alt="DAN Сървис">
+          <div>
+            <p>“DAN Сървис” е съвременна фирма за поддръжка на информационни технологии (IT), изграждане и поддръжка на локални мрежи, облачни и инфраструктурни услуги. Тя е специализирана в предоставянето на ИТ услуги и поддръжка на компютърна техника.</p>
+            <p>Нашият екип е изграден от млади специалисти със сертифицирано обучение. Те са доказани експерти в различни облачни базирани услуги, виртуална ИТ поддръжка, управление на мрежи, облачно архивиране на данни.</p>
+          </div>
+        </div>
+      </div>
+      <div class="partner-block" id="starata-pek">
+        <h3>Старата пекарна</h3>
+        <div class="block-content">
+          <img src="Gallery/Изображения/Picture_21.jpg" alt="Старата пекарна">
+          <div>
+            <p>Старата пекарна е най-старата и автентична семейна пекарна в региона. Тя е основана през далечната 1965 г., като в нея работят вече трето поколение пекари. Непрекъснатите усилия да подобрим качеството и вкуса на храната допринасят за дългогодишни приятелства с клиентите ни.</p>
+            <p>Водени от страстта си да печем страхотен хляб, закуски и сладкиши, ние се усъвършенстваме и развиваме. Използваме местни ферми за яйца, мляко и млечни продукти, което гарантира високото качество на продуктите.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Калина Стоянова, 12 Б, 2025 Социален Хъб</p>
+    </footer>
+  </div>
+</body>
+</html>
